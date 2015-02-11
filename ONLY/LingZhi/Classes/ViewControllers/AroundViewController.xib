@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AroundViewController">
+            <connections>
+                <outlet property="AroundButton" destination="fJT-Yz-dRu" id="EtZ-XT-ETs"/>
+                <outlet property="AroundTableView" destination="O03-lE-xAe" id="4eQ-Sd-Rvs"/>
+                <outlet property="ChooseManButton" destination="Wb4-yu-N0y" id="LEt-Rw-fUo"/>
+                <outlet property="ChooseSexButton" destination="GE3-Mf-L0M" id="bns-x0-AMq"/>
+                <outlet property="ChooseWomanButton" destination="iSs-L0-emy" id="LhE-Iq-uwj"/>
+                <outlet property="SexChooseTableView" destination="Pee-mG-VEG" id="Tpc-IQ-jos"/>
+                <outlet property="TimeInButton" destination="u9L-3L-apj" id="bAf-iy-aVy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GE3-Mf-L0M">
+                    <rect key="frame" x="10" y="64" width="100" height="30"/>
+                    <state key="normal" title="性别选择">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJT-Yz-dRu">
+                    <rect key="frame" x="210" y="64" width="100" height="30"/>
+                    <state key="normal" title="距离排序">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="O03-lE-xAe">
+                    <rect key="frame" x="0.0" y="108" width="600" height="492"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="108" width="400" height="692"/>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="i5M-Pr-FkT" id="8mQ-FH-STd"/>
+                        <outlet property="delegate" destination="i5M-Pr-FkT" id="IfQ-SJ-7E9"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9L-3L-apj">
+                    <rect key="frame" x="110" y="64" width="100" height="30"/>
+                    <state key="normal" title="出现时间排序"/>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Pee-mG-VEG">
+                    <rect key="frame" x="24" y="94" width="148" height="119"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb4-yu-N0y">
+                    <rect key="frame" x="24" y="119" width="148" height="30"/>
+                    <color key="backgroundColor" red="0.021769915819999999" green="0.96846405469999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="男">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSs-L0-emy">
+                    <rect key="frame" x="24" y="151" width="148" height="30"/>
+                    <color key="backgroundColor" red="0.021769915819999999" green="0.96846405469999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="女">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="182" y="172"/>
+        </view>
+    </objects>
+</document>

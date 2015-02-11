@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<project name="fetch_svn_log_project" default="fetch_svn_log">
+    
+    <!--抓取build change log提交到服务器-->
+    <target name="fetch_svn_log">
+        <exec executable="sh">
+            <arg value="fetch_svn_log.sh"/>
+        </exec>
+    </target>
+	
+</project>

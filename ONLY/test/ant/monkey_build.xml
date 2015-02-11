@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<project name="monkeytalkdemo" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant" default="quit_simulator">
+    
+    <!--将app安装到模拟器上并启动-->
+    <target name="install_run_app">
+        <exec executable="sh">
+            <arg value="../ant/install_run_app.sh"/>
+        </exec>
+    </target>
+    
+    <!--运行MT脚本-->
+    <target name="monkeytalk_script" depends="install_run_app">
+        <!--休克20秒钟以确保模拟器已启动app和app初始化-->
+        <sleep seconds="20"/>
+        <monkeytalk:run agent="iOS" script="../script/SampleFUC.mts"
+        timeout="2000" reportdir="reports" verbose="true"/>
+    </target>
+    
+    <!--退出模拟器-->
+    <target name="quit_simulator" depends="monkeytalk_script">
+        <exec executable="osascript">
+            <arg value="../ant/quit_simulator.scpt"/>
+        </exec>
+    </target>
+    
+    <!--休克2秒钟以确保模拟器退出-->
+    <sleep seconds="2"/>
+    
+</project>

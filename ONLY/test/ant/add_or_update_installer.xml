@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<project name="add_or_update_installer_project" default="add_or_update_installer">
+    
+    <!--更新Installer-->
+    <target name="add_or_update_installer">
+        <exec executable="sh">
+            <arg value="add_or_update_installer.sh"/>
+        </exec>
+    </target>
+</project>

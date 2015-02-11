@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>098CD720-2ED1-4128-ABB0-AA594B20BBB6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LingZhi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>51f59705-178b-924f-80d2-18480def4273</key>
+		<string>https://svn.ipadorz.com/svn/isspro_lingzhi_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/src/V_1.4/ONLY/LingZhi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>51f59705-178b-924f-80d2-18480def4273</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>51f59705-178b-924f-80d2-18480def4273</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51f59705-178b-924f-80d2-18480def4273</string>
+			<key>IDESourceControlWCCName</key>
+			<string>isspro_lingzhi_iphone</string>
+		</dict>
+	</array>
+</dict>
+</plist>

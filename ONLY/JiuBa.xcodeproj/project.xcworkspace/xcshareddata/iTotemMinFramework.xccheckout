@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57E6A0A0-4557-49D9-9C20-A17A25E99D74</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iTotemMinFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE8CB962-C19A-49A8-B872-DBEFCC0060D5</key>
+		<string>https://svn.ipadorz.com/svn/iss_framework_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/trunk/src_min/iTotemMinFramework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE8CB962-C19A-49A8-B872-DBEFCC0060D5</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>FE8CB962-C19A-49A8-B872-DBEFCC0060D5</key>
+		<string>https://svn.ipadorz.com/svn/iss_framework_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.ipadorz.com/svn/iss_framework_iphone/trunk/src_min/iTotemMinFramework.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE8CB962-C19A-49A8-B872-DBEFCC0060D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE8CB962-C19A-49A8-B872-DBEFCC0060D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>

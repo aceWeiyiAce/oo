@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cart" syncable="YES">
+        <relationship name="productInfo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductInfo" inverseName="cart" inverseEntity="ProductInfo" syncable="YES"/>
+    </entity>
+    <entity name="Myfavorite" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="material" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateInOrder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeCount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyTrack" representedClassName="MyTrack" isAbstract="YES" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productPrice" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProductInfo" representedClassName="ProductInfo" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="material" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateInOrder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeCount" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cart" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cart" inverseName="productInfo" inverseEntity="Cart" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Myfavorite" positionX="-243" positionY="288" width="128" height="208"/>
+        <element name="MyTrack" positionX="-513" positionY="243" width="128" height="118"/>
+        <element name="ProductInfo" positionX="-585" positionY="396" width="128" height="223"/>
+        <element name="Cart" positionX="-398" positionY="450" width="128" height="58"/>
+    </elements>
+</model>
