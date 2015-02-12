@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		184DA3B31A8B4C8A00F39C2A /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA3B11A8B4C8A00F39C2A /* PayViewController.m */; };
 		184DA3B41A8B4C8A00F39C2A /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184DA3B21A8B4C8A00F39C2A /* PayViewController.xib */; };
+		186D94F11A8C58820089A577 /* UPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 186D94F01A8C58820089A577 /* UPViewController.mm */; };
+		186D94F51A8C58970089A577 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D94F21A8C58970089A577 /* libUPPayPlugin.a */; };
 		2D0F000019B5905400185AC5 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FFFFD19B5905400185AC5 /* CommonUtil.m */; };
 		2D0F000119B5905400185AC5 /* WXPayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FFFFF19B5905400185AC5 /* WXPayClient.m */; };
 		2D16CB9419A18FAD00AAA0C7 /* bg_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D16CB8C19A18FAD00AAA0C7 /* bg_password.png */; };
@@ -857,6 +859,12 @@
 		184DA3B01A8B4C8A00F39C2A /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
 		184DA3B11A8B4C8A00F39C2A /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
 		184DA3B21A8B4C8A00F39C2A /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		186D94E11A8C55D60089A577 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUPPayPlugin.a; path = "../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/sdk/libs/libUPPayPlugin.a"; sourceTree = "<group>"; };
+		186D94EF1A8C58820089A577 /* UPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPViewController.h; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPViewController.h"; sourceTree = "<group>"; };
+		186D94F01A8C58820089A577 /* UPViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UPViewController.mm; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPViewController.mm"; sourceTree = "<group>"; };
+		186D94F21A8C58970089A577 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUPPayPlugin.a; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/libUPPayPlugin.a"; sourceTree = "<group>"; };
+		186D94F31A8C58970089A577 /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPlugin.h; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/UPPayPlugin.h"; sourceTree = "<group>"; };
+		186D94F41A8C58970089A577 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPluginDelegate.h; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/UPPayPluginDelegate.h"; sourceTree = "<group>"; };
 		2D0F000519B59E4500185AC5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		2D0FFFFC19B5905400185AC5 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 		2D0FFFFD19B5905400185AC5 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
@@ -2375,6 +2383,7 @@
 				65ABE2F118F684F400350333 /* OpenGLES.framework in Frameworks */,
 				656F3F3318FCCD0500B17870 /* libWeChatSDK.a in Frameworks */,
 				846F218518CEBA1700380A03 /* alipay.png in Frameworks */,
+				186D94F51A8C58970089A577 /* libUPPayPlugin.a in Frameworks */,
 				84274A1018D6A3EC000B01C5 /* CoreVideo.framework in Frameworks */,
 				84274A0E18D6A3E3000B01C5 /* CoreMedia.framework in Frameworks */,
 				84274A0C18D6A3C3000B01C5 /* AVFoundation.framework in Frameworks */,
@@ -4308,6 +4317,11 @@
 				184DA3B01A8B4C8A00F39C2A /* PayViewController.h */,
 				184DA3B11A8B4C8A00F39C2A /* PayViewController.m */,
 				184DA3B21A8B4C8A00F39C2A /* PayViewController.xib */,
+				186D94EF1A8C58820089A577 /* UPViewController.h */,
+				186D94F01A8C58820089A577 /* UPViewController.mm */,
+				186D94F21A8C58970089A577 /* libUPPayPlugin.a */,
+				186D94F31A8C58970089A577 /* UPPayPlugin.h */,
+				186D94F41A8C58970089A577 /* UPPayPluginDelegate.h */,
 			);
 			name = MyControllers;
 			path = Cell/MyControllers;
@@ -4595,6 +4609,7 @@
 		D7B7D09615EB1F2900CF5672 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				186D94E11A8C55D60089A577 /* libUPPayPlugin.a */,
 				D22CC6A31A79F2AD008009C7 /* AddressBook.framework */,
 				D22CC6A41A79F2AD008009C7 /* AddressBookUI.framework */,
 				2D99D96919A1A93D005AD626 /* Accelerate.framework */,
@@ -5701,6 +5716,7 @@
 				84FA8D771918B80B001C36F3 /* ZXResultPoint.m in Sources */,
 				2D99D98319A1D941005AD626 /* mask.c in Sources */,
 				84FA8CB01918B80B001C36F3 /* ZXBizcardResultParser.m in Sources */,
+				186D94F11A8C58820089A577 /* UPViewController.mm in Sources */,
 				D23C5D4B1A79D30D004E48E3 /* MyFirstTableViewCell.m in Sources */,
 				D2189F711A7A20CF0046D51E /* GoodsUpViewController.m in Sources */,
 				84FA8D4D1918B80B001C36F3 /* ZXPDF417.m in Sources */,
@@ -5939,6 +5955,13 @@
 					"$(PROJECT_DIR)/libs/BaiduMap_IOSSDK_v2.6.0_Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/libs/BaiduMap_IOSSDK_v2.6.0_Lib/Release-iphonesimulator",
 					"$(PROJECT_DIR)/libs/Release-iphoneos",
+					"$(PROJECT_DIR)/LingZhi/Classes/Cell/MyControllers/UPPayPlugin",
+					/Users/apple/Downloads/Development_kit18019439,
+					"2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For",
+					"手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/sdk/libs",
+					/Users/apple/Downloads/Development_kit18019439,
+					"2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For",
+					"手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -5987,6 +6010,13 @@
 					"$(PROJECT_DIR)/libs/BaiduMap_IOSSDK_v2.6.0_Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/libs/BaiduMap_IOSSDK_v2.6.0_Lib/Release-iphonesimulator",
 					"$(PROJECT_DIR)/libs/Release-iphoneos",
+					"$(PROJECT_DIR)/LingZhi/Classes/Cell/MyControllers/UPPayPlugin",
+					/Users/apple/Downloads/Development_kit18019439,
+					"2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For",
+					"手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/sdk/libs",
+					/Users/apple/Downloads/Development_kit18019439,
+					"2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For",
+					"手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
