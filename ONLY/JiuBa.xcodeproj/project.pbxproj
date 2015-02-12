@@ -11,6 +11,10 @@
 		184DA3B41A8B4C8A00F39C2A /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184DA3B21A8B4C8A00F39C2A /* PayViewController.xib */; };
 		186D94F11A8C58820089A577 /* UPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 186D94F01A8C58820089A577 /* UPViewController.mm */; };
 		186D94F51A8C58970089A577 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D94F21A8C58970089A577 /* libUPPayPlugin.a */; };
+		186D94FA1A8C63A10089A577 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D94F81A8C63A10089A577 /* RecordViewController.m */; };
+		186D94FB1A8C63A10089A577 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D94F91A8C63A10089A577 /* RecordViewController.xib */; };
+		186D94FF1A8C652F0089A577 /* GoodsInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D94FD1A8C652F0089A577 /* GoodsInfoCell.m */; };
+		186D95001A8C652F0089A577 /* GoodsInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D94FE1A8C652F0089A577 /* GoodsInfoCell.xib */; };
 		2D0F000019B5905400185AC5 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FFFFD19B5905400185AC5 /* CommonUtil.m */; };
 		2D0F000119B5905400185AC5 /* WXPayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FFFFF19B5905400185AC5 /* WXPayClient.m */; };
 		2D16CB9419A18FAD00AAA0C7 /* bg_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D16CB8C19A18FAD00AAA0C7 /* bg_password.png */; };
@@ -865,6 +869,12 @@
 		186D94F21A8C58970089A577 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUPPayPlugin.a; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/libUPPayPlugin.a"; sourceTree = "<group>"; };
 		186D94F31A8C58970089A577 /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPlugin.h; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/UPPayPlugin.h"; sourceTree = "<group>"; };
 		186D94F41A8C58970089A577 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPluginDelegate.h; path = "../../../../../../../Downloads/Development_kit18019439 2/手机控件支付产品入网材料/手机控件支付产品技术开发包/开发包/移动支付控件（For 手机支付-手机控件支付）/控件开发包3.0.2/upmp_iphone/demo/UPPayDemo/UPPayDemo/UPPayPlugin/UPPayPluginDelegate.h"; sourceTree = "<group>"; };
+		186D94F71A8C63A10089A577 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		186D94F81A8C63A10089A577 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		186D94F91A8C63A10089A577 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		186D94FC1A8C652F0089A577 /* GoodsInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsInfoCell.h; sourceTree = "<group>"; };
+		186D94FD1A8C652F0089A577 /* GoodsInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsInfoCell.m; sourceTree = "<group>"; };
+		186D94FE1A8C652F0089A577 /* GoodsInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsInfoCell.xib; sourceTree = "<group>"; };
 		2D0F000519B59E4500185AC5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		2D0FFFFC19B5905400185AC5 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 		2D0FFFFD19B5905400185AC5 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
@@ -4314,6 +4324,9 @@
 				D2189F691A7A16A30046D51E /* AroundViewController.h */,
 				D2189F6A1A7A16A30046D51E /* AroundViewController.m */,
 				D2189F6B1A7A16A30046D51E /* AroundViewController.xib */,
+				186D94F71A8C63A10089A577 /* RecordViewController.h */,
+				186D94F81A8C63A10089A577 /* RecordViewController.m */,
+				186D94F91A8C63A10089A577 /* RecordViewController.xib */,
 				184DA3B01A8B4C8A00F39C2A /* PayViewController.h */,
 				184DA3B11A8B4C8A00F39C2A /* PayViewController.m */,
 				184DA3B21A8B4C8A00F39C2A /* PayViewController.xib */,
@@ -4354,6 +4367,9 @@
 				D23C5D431A79C1E6004E48E3 /* GoodsTableViewCell.h */,
 				D23C5D441A79C1E6004E48E3 /* GoodsTableViewCell.m */,
 				D23C5D451A79C1E6004E48E3 /* GoodsTableViewCell.xib */,
+				186D94FC1A8C652F0089A577 /* GoodsInfoCell.h */,
+				186D94FD1A8C652F0089A577 /* GoodsInfoCell.m */,
+				186D94FE1A8C652F0089A577 /* GoodsInfoCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -5081,6 +5097,7 @@
 				846F217A18CEBA1700380A03 /* sinaWeiBoPress.png in Resources */,
 				D23CC17F1A79403800E13A6F /* main.png in Resources */,
 				2DA903EF198F5C2200078648 /* chengse.png in Resources */,
+				186D95001A8C652F0089A577 /* GoodsInfoCell.xib in Resources */,
 				655DEBC418D98582006B5EAD /* NotificationViewController.xib in Resources */,
 				2DC6BADA19C2A79000537FDA /* OrderShouldTotalPayCell.xib in Resources */,
 				2DA903F3198F5C2200078648 /* funtionImage.png in Resources */,
@@ -5110,6 +5127,7 @@
 				846F217118CEBA1700380A03 /* rightImage_51_02.png in Resources */,
 				2DC6BAD419C2A79000537FDA /* OrderDetailCell.xib in Resources */,
 				D2AF6DEF1A78E4B00052CFC7 /* Default-568h@2x.png in Resources */,
+				186D94FB1A8C63A10089A577 /* RecordViewController.xib in Resources */,
 				659FC80E18BF113200FF0228 /* ScanningCodeViewController.xib in Resources */,
 				D264EA261A7F1D7500D89307 /* HomeCollectionViewCell.xib in Resources */,
 				846F219618CEBA1700380A03 /* returnStandard.png in Resources */,
@@ -5701,6 +5719,7 @@
 				84FA8D3C1918B80B001C36F3 /* ZXModulusPoly.m in Sources */,
 				D2AF6E101A7920580052CFC7 /* FriendsTableViewCell.m in Sources */,
 				4EA5F4AE18D602AC0034BC86 /* SearchViewController.m in Sources */,
+				186D94FF1A8C652F0089A577 /* GoodsInfoCell.m in Sources */,
 				84FA8D1B1918B80B001C36F3 /* ZXAbstractRSSReader.m in Sources */,
 				84FA8D741918B80B001C36F3 /* ZXMultiFormatWriter.m in Sources */,
 				5011647817DDC52400CFC72E /* MKAnnotationView+WebCache.m in Sources */,
@@ -5739,6 +5758,7 @@
 				84FA8CEC1918B80B001C36F3 /* ZXASCIIEncoder.m in Sources */,
 				D27351B91A8895EC008C418D /* GoodsClassSecondCollectionViewController.m in Sources */,
 				2DC6BAC319C2A79000537FDA /* CartCell.m in Sources */,
+				186D94FA1A8C63A10089A577 /* RecordViewController.m in Sources */,
 				84FA8D5D1918B80B001C36F3 /* ZXAlignmentPattern.m in Sources */,
 				D29F2F801A88D98E00F6B2DF /* AFJSONRequestOperation.m in Sources */,
 				65AF580918E40B7300C8B6AA /* SizeModel.m in Sources */,

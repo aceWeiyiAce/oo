@@ -15,6 +15,7 @@
 #import "SetAppViewController.h"
 #import "JiuBaUrl.h"
 #import "AFNetworking.h"
+#import "RecordViewController.h"
 #import "PayViewController.h"
 @interface JBshouyeViewController ()
 
@@ -31,9 +32,13 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = YES;
 }
-
+//- (void)viewDidDisappear:(BOOL)animated{
+//    [super viewDidDisappear:animated];
+//    self.navigationController.navigationBar.hidden = NO;
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self getuserData];
@@ -109,7 +114,8 @@
     [self.navigationController pushViewController:setAppVC animated:YES];
 }
 - (IBAction)DidTimeLiteButtonAction:(id)sender {
-    
+    RecordViewController *vc = [[RecordViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
